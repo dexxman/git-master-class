@@ -21,3 +21,11 @@ Three other git hub alternatives
 gitlab
 bitbucket
 sourceForge
+
+git rebase is a Git command used to combine and rearrange commits in a more organized way. It allows you to modify the commit history of a branch. Instead of merging changes as a new commit, it integrates the changes directly into the existing commit history.
+and the command is git rebase <base_branch>.
+
+git cherry-pick is a Git command that allows you to apply a specific commit from one branch to another. It's useful when you want to pick and choose individual commits and apply them elsewhere, independently of the commit history.Usually, when you merge branches, you bring all the changes from one branch into another, creating a merge commit.
+
+With git cherry-pick, you can select specific commits from one branch and apply them directly to another branch without merging the entire branch
+
